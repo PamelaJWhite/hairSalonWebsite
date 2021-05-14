@@ -25,4 +25,18 @@ ul {
     height: 120px;  
 }
 
-@media max-width=""
+@media (max-width: 768px) {
+    .topNav {
+        height: 150px;
+    }
+    .bottomNav {
+        height: 75px;
+        border: 1px solid coral;
+        justify-content: center;
+        align-items: center;
+        align-content: center; 
+    }
+
+
+
+}

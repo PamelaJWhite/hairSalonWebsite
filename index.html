@@ -10,24 +10,41 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Hair Salon</title>
 </head>
-
+<script>
+    function myFunction() {
+      var x = document.getElementById("topNavLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 <body>
     <header>
         <nav class="topNav">
-            <h1>LOGO</h1>
-            <div class="topNavLinks">
+            <a href="./index.html" class="active">LOGO</a>
+            <div id="topNavLinks" class="topNavLinks">
                 <a class="topLinks" href="./index.html">home</a>
                 <a class="topLinks" href="./about.html">about</a>
                 <a class="topLinks" href="./gallery.html">gallery</a>
                 <a class="topLinks" href="./blog.html">blog</a>
                 <a class="topLinks" href="./contact.html">contact</a>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <div class="bars"></div>
+                <div class="bars"></div>
+                <div class="bars"></div>
+
+              </a>
         </nav>
     </header>
 
     <main class="main">
         <section class="topMain">
             <!-- <div class="leftTopMain">empty</div> -->
+            <img class="topImage" src="./hairSalonPics/greg-trowman-jsuWg7IXx1k-unsplash.jpg">
 
             <article class="rightTopMain">
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
@@ -37,7 +54,7 @@
                     harum recusandae. Dolorum officia reprehenderit rem id.</p>
                 <button class="moreButton">More</button>
             </article>
-            <img class="topImage" src="./hairSalonPics/greg-trowman-jsuWg7IXx1k-unsplash.jpg">
+
 
         </section>
         <section class="bottomMain">
@@ -74,5 +91,3 @@
         </nav>
     </footer>
 </body>
-
-
