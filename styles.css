@@ -31,10 +31,11 @@ main {
 .rightTopMain {
     border: 1px solid palevioletred;
     position: absolute;
-    right: 0;
+    right: 5%;
     width: 307px;
     height: 663px;
-    top: 20%;
+    top: 10%;
+    bottom: 10%;
     
     
 
