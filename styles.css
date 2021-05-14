@@ -1,0 +1,71 @@
+body {
+    background-color:rgb(117, 99, 182);
+    margin:0%;
+}
+main { 
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.topMain {
+    border: 1px solid rosybrown;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    position: relative;
+
+}
+  
+    
+.topImage {
+    border: 1px solid navajowhite;
+}
+
+.leftTopMain {
+    border: 1px solid whitesmoke;
+    font-size: 50px;
+    position: absolute;
+
+
+
+}
+.rightTopMain {
+    border: 1px solid palevioletred;
+    position: absolute;
+    right: 0;
+    width: 307px;
+    height: 663px;
+    top: 20%;
+    
+    
+
+}
+.aboutParagraph {
+    font-size: 25px;
+}
+
+.moreButton {
+    height: 75px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+.bottomMain {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.imgBox {
+    border: 1px solid blue;
+    width: 356.5px;
+    height: 600px;
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
