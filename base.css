@@ -1,0 +1,28 @@
+.topNav {
+    border: 1px solid turquoise;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.topNavLinks {
+    border: 1px solid lemonchiffon;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bottomNav {
+    display: flex;
+    justify-content: flex-start;
+    height: 120px;  
+}
+
+@media max-width=""
