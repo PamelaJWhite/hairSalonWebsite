@@ -6,11 +6,25 @@
     justify-content: center;
     height: 200px;
 }
+.icon {
+    border: 1px sold green;
+    display: none;
+}
 .topNavLinks {
     border: 1px solid lemonchiffon;
     display: flex;
     width: 100%;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+}
+ .containOther {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+border: 1px solid purple;
+
 }
 ul {
     list-style-type: none;
@@ -39,4 +53,40 @@ ul {
 
 
 
+}
+/* change this back to iPhone x size, not 502 */
+@media (max-width: 502px) {
+    .imgBox {
+        padding: 0 15px;
+    }
+    .topNav {
+        background-color: orange;
+        /* overflow: hidden; */
+        position: relative;
+        height: auto;
+    }
+    .topNav #topNavLinks {
+        display: none;
+    }
+    .topNav a {  
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .topNav a.icon {
+        background: black;
+        display: block;
+        right: 0;
+        top: 0;
+        padding: 0 5px;
+        margin-bottom: 5px;
+    }
+    .bars {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+    }
 }
