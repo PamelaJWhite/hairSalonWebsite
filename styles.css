@@ -1,7 +1,4 @@
-body {
-    background-color:rgb(117, 99, 182);
-    margin:0%;
-}
+
 
  
 main { 
@@ -42,6 +39,8 @@ main {
     grid-row: 1/-1;
     grid-column: 2/-1;
     margin-right: 50px;
+    min-width: 390px;
+    margin: 30px  50px 30px 0;
    
     /* position: absolute; 
     width: 307px;
@@ -50,19 +49,30 @@ main {
         left: 70%;
         top: 50%;
         transform: translate(-50%,-50%);*/
+}
 
-
+h2 {
+    color: #7f14f1;
+    background-color: #3fdbb1; 
 }
 .aboutParagraph {
-    font-size: 20px;
+    font-size: 30px;
+    color: #3fdbb1;;
+    background-color: #7f14f1;
+    display: inline-block;
+    padding: 5px 10px 0 10px;
+}
+
+.buttonJar {
+    display: flex;
+    justify-content: center;
 }
 
 .moreButton {
     height: 50px;
-    width: 100px;
-    margin-top: 80px;
+    width: 100px; 
+    margin-top: 50px;
 }
-
 
 .bottomMain {
     border: 1px solid purple;
@@ -74,34 +84,84 @@ main {
 
 .imgBox {
     border: 1px solid blue;
-    width: 356.5px;
-    height: 100%;
+    /* width: 356.5px; */
+
+    width: 30%;
     text-align: center;
     margin: 20px;
 }
 
-img {
-    height: auto;
-    width: 100%;
+
+#tallImg {
+    border: 1px solid gold;
+    object-fit: fill;
+    overflow: hidden;
 }
 
-@media (max-width: 768px) {
+.cutLink:hover {
+
+    color: #ea00ad;
+}
+
+@media (max-width: 1024px) {
     .topMain {
     grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    }
-.topImage {
     
-}
-    .rightTopMain {
-        grid-column: 1/-1;
-       margin: 0;
     }
+    .rightTopMain {
+    grid-column: 1/-1;
+    margin: 0;
+   
+    }
+
+    h2 {
+    display: absolute;
+    margin: .5em auto 0 auto;   
+    text-align: center;
+    }
+
+    .aboutParagraph {
+        margin-left: 3em;
+    }
+
+    #firstAboutParagraph {
+        margin-top: .5em;
+    }
+    .buttonJar {
+        margin: 0;
+    }
+    .moreButton {
+        margin: .5em;
+    }
+
     .bottomMain {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+   
+    .topImage {
+        justify-content: bottom;
+        min-width: 765px;
+        min-height: 511.34px;
+
+    }
+    .imgBox {
+       padding: 1em;
+    }
+    h3 {
+        font-size: 45px;
+    }
 }
+
+@media (max-width: 699px) {
+  .aboutParagraph {
+      margin-left: 0;
+      display: block;
+      padding-left: 1em;
+  }  
+
+}
+
+
 

@@ -7,22 +7,54 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="about.css">
-    </head>
-    <body>
-        <header>
-            <nav class="topNav">
-                <h1>LOGO</h1>
-                <div class="topNavLinks">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="topNav">
+            <a href="./index.html" class="active">LOGO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <div class="bars"></div>
+                <div class="bars"></div>
+                <div class="bars"></div></a>
+            <div id="topNavLinks" class="topNavLinks">
                 <a class="topLinks" href="./index.html">home</a>
                 <a class="topLinks" href="./about.html">about</a>
                 <a class="topLinks" href="./gallery.html">gallery</a>
                 <a class="topLinks" href="./blog.html">blog</a>
                 <a class="topLinks" href="./contact.html">contact</a>
-                </div>
-            </nav>
-        </header>
-  
+            </div>
+           
+
+              </a>
+        </nav>
+    </header>
+    <main class="containOther">
+        <h2>Contact</h2>
+        <form class="contactForm">
+            <div class="name">
+                <input id="name" type="text" placeholder="name">
+            </div>
+            <div class="address">
+                <input id="address" type="text" placeholder="address">
+            </div>
+            <div class="email">
+                <input id="email" type="email" placeholder="email">
+            </div>
+            <div class="phone">
+                <input id="phone" type="tel" placeholder="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required>
+            </div>
+            <div class="message">
+                <textarea maxlength="500" minlength="20" placeholder="Comments"></textarea>
+            </div>
+            <button>send</button>
+        </form>
+    </main>
     <footer>
         <nav class="bottomNav">
             <ul id=leftList>

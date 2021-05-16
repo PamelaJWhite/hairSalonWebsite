@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
     <title>Hair Salon</title>
 </head>
 <script>
@@ -21,10 +23,10 @@
     }
     </script>
 <body>
-    <header>
+   <header>
         <nav class="topNav">
             <a href="./index.html" class="active">LOGO</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
                 <div class="bars"></div>
                 <div class="bars"></div>
@@ -44,16 +46,19 @@
 
     <main class="main">
         <section class="topMain">
-            <!-- <div class="leftTopMain">empty</div> -->
-            <img class="topImage" src="./hairSalonPics/greg-trowman-jsuWg7IXx1k-unsplash.jpg">
+            <!-- <div class="leftTopMain">empty</div>-->
+           <!--<img class="topImage" src="./hairSalonPics/element5-digital-3bj1fSbxxe4-unsplash.jpg">--> 
 
             <article class="rightTopMain">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                <p class="aboutParagraph">At least one p. maybe three separate p's. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                    Aliquid doloribus dicta delectus nam quo ab, beatae quis nulla ipsa! Possimus ab repudiandae quasi
-                    harum recusandae. Dolorum officia reprehenderit rem id.</p>
-                <button class="moreButton">More</button>
+                <h2>Some alluring tagline this big</h2>
+                <p class="aboutParagraph" id="firstAboutParagraph">Haikus are funny</p>
+                <br>
+                <p class="aboutParagraph">But sometimes they don't make sense</p>
+                <br>
+                <p class="aboutParagraph">Refrigerator</p>
+                <br>
+                <div class="buttonJar">
+                <button class="moreButton">More</button> </div>
             </article>
 
 
@@ -62,20 +67,23 @@
             <div class="imgBox">
                 <a class="cutLink">
                     <img src="./hairSalonPics/wesley-tingey-zar90MHyWYc-unsplash.jpg">
+                    <h3>CUT</h3>
                 </a>
-                <h3>CUT</h3>
+                
             </div>
             <div class="imgBox">
-                <a class="colorLink">
+                <a class="cutLink">
                     <img src="./hairSalonPics/jessie-dee-dabrowski-www-jessiedee-net-TETR8YLSqt4-unsplash.jpg">
+                    <h3>COLOR</h3>
                 </a>
-                <h3>COLOR</h3>
+                
             </div>
             <div class="imgBox">
-                <a class="styleLink">
-                    <img src="./hairSalonPics/brian-asare-eZeUdRuchPA-unsplash.jpg">
+                <a class="cutLink">
+                    <img id="tallImg" src="./hairSalonPics/brian-asare-eZeUdRuchPA-unsplash.jpg">
+                    <h3>STYLE</h3>
                 </a>
-                <h3>STYLE</h3>
+                
             </div>
         </section>
     </main>

@@ -1,10 +1,27 @@
+/* https://coolors.co/7f14f1-5866d6-30b7bb-f8d430-f59f50-f16a6f-ea00ad-f6f9fe */
+body {
+    background-color: #3fdbb1;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: #7f14f1;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5866d6;
+}
 .topNav {
-    border: 1px solid turquoise;
+    border: 1px solid rgb(61, 58, 85);
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 200px;
+    font-size: 25px;
 }
 .icon {
     border: 1px sold green;
@@ -15,6 +32,7 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    text-transform: uppercase;
 }
  .containOther {
     display: flex;
@@ -24,13 +42,65 @@
 }
 h2 {
 border: 1px solid purple;
-
+font-size: 50px;
+text-transform: uppercase;
+background-color: #7f14f1;
+color: #3fdbb1;
+padding: 10px 20px 0 20px;
+margin-bottom: 15px;
 }
+
+h3 {
+    background-color: #ea00ad;
+    color:#3fdbb1;
+    font-size: 35px;
+}
+
+p {
+    color: #ea00ad;
+    font-size: 25px;
+}
+
+
+button {
+   /* border-radius:0.2em;
+    display:inline-block;*/
+    padding:0.1em .7em;
+    /*text-transform: uppercase;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+   /* text-decoration:none;*/
+    color:#3fdbb1;
+    background-color:#ea00ad;
+   /* box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);*/
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    /*text-align:center;*/
+    /*position:relative;*/
+    font-size: 175%;
+        }
+ button:hover, a:hover {
+     cursor: pointer;
+
+        }
+
+       /* a.button7:active{
+         box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+        }
+        @media all and (max-width:30em){
+         a.button7{
+          display:block;
+          margin:0.4em auto;
+         }
+        }
+}
+*/
+
 ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  
 }
 
 .bottomNav {
@@ -39,28 +109,47 @@ ul {
     height: 120px;  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+   
     .topNav {
         height: 150px;
     }
+    h2 {
+        font-size: 45px;
+     }
+    h3 {
+        font-size: 30px;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+
+   
     .bottomNav {
         height: 75px;
         border: 1px solid coral;
         justify-content: center;
         align-items: center;
         align-content: center; 
+        /* margin-right: 1em; */
+    }
+
+    ul {
+        border: 1px solid tomato;
+        padding: 0 10px;
     }
 
 
 
 }
-/* change this back to iPhone x size, not 502 */
-@media (max-width: 502px) {
+
+@media (max-width: 699px) {
     .imgBox {
         padding: 0 15px;
     }
     .topNav {
-        background-color: orange;
+        background-color: #dbbe3f;
         /* overflow: hidden; */
         position: relative;
         height: auto;
@@ -69,14 +158,14 @@ ul {
         display: none;
     }
     .topNav a {  
-        color: white;
+        color: #7f14f1;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
         display: block;
     }
     .topNav a.icon {
-        background: black;
+        background: #ea00ad;
         display: block;
         right: 0;
         top: 0;
@@ -86,7 +175,11 @@ ul {
     .bars {
         width: 30px;
         height: 3px;
-        background-color: white;
+        background-color: #3fdbb1;
         margin: 6px 0;
     }
+   
+   
+
 }
+
