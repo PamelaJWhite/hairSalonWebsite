@@ -1,4 +1,5 @@
 /* https://coolors.co/7f14f1-5866d6-30b7bb-f8d430-f59f50-f16a6f-ea00ad-f6f9fe */
+
 body {
     background-color: #3fdbb1;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -15,7 +16,6 @@ a:visited {
     color: #5866d6;
 }
 .topNav {
-    border: 1px solid rgb(61, 58, 85);
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -24,11 +24,9 @@ a:visited {
     font-size: 25px;
 }
 .icon {
-    border: 1px sold green;
     display: none;
 }
 .topNavLinks {
-    border: 1px solid lemonchiffon;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -41,18 +39,17 @@ a:visited {
     align-items: center;
 }
 h2 {
-border: 1px solid purple;
 font-size: 50px;
 text-transform: uppercase;
 background-color: #7f14f1;
-color: #3fdbb1;
+color: #98ECD6;
 padding: 10px 20px 0 20px;
 margin-bottom: 15px;
 }
 
 h3 {
     background-color: #ea00ad;
-    color:#3fdbb1;
+    color:#98ECD6;
     font-size: 35px;
 }
 
@@ -70,7 +67,7 @@ button {
     margin:0 0.3em 0.3em 0;
     box-sizing: border-box;
    /* text-decoration:none;*/
-    color:#3fdbb1;
+    color:#98ECD6;
     background-color:#ea00ad;
    /* box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);*/
     box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
@@ -128,7 +125,6 @@ ul {
    
     .bottomNav {
         height: 75px;
-        border: 1px solid coral;
         justify-content: center;
         align-items: center;
         align-content: center; 
@@ -136,20 +132,18 @@ ul {
     }
 
     ul {
-        border: 1px solid tomato;
         padding: 0 10px;
     }
-
-
-
 }
 
 @media (max-width: 699px) {
+    h2 {
+        margin-top: 30px;
+    }
     .imgBox {
         padding: 0 15px;
     }
     .topNav {
-        background-color: #dbbe3f;
         /* overflow: hidden; */
         position: relative;
         height: auto;

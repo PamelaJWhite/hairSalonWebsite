@@ -2,40 +2,23 @@
 
  
 main { 
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
 .topMain {
-    border: 1px solid rosybrown;
-    /* position: relative; */
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr;
     align-items: center;
     max-height: 600px;
 }
-  
+.topMain {
     
-.topImage {
-    border: 1px solid navajowhite;
-    grid-column: 1/-1;
-    grid-row: 1/-1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-
-
+    background-image:url("./hairSalonPics/element5-digital-3bj1fSbxxe4-unsplash.jpg");
+    background-size: 100%;
 }
 
-.leftTopMain {
-    border: 1px solid whitesmoke;
-    font-size: 50px;
-    position: absolute;
-}
 .rightTopMain {
-    border: 1px solid palevioletred;
     grid-row: 1/-1;
     grid-column: 2/-1;
     margin-right: 50px;
@@ -53,11 +36,11 @@ main {
 
 h2 {
     color: #7f14f1;
-    background-color: #3fdbb1; 
+    background-color: #98ECD6;
 }
 .aboutParagraph {
     font-size: 30px;
-    color: #3fdbb1;;
+    color: #98ECD6;
     background-color: #7f14f1;
     display: inline-block;
     padding: 5px 10px 0 10px;
@@ -75,28 +58,19 @@ h2 {
 }
 
 .bottomMain {
-    border: 1px solid purple;
-    display: flex;
+    display: flex; 
     justify-content: space-evenly;
     margin-top: 50px;
     height: 100%;
 }
 
 .imgBox {
-    border: 1px solid blue;
     /* width: 356.5px; */
-
-    width: 30%;
+    width: 30%; 
     text-align: center;
     margin: 20px;
 }
 
-
-#tallImg {
-    border: 1px solid gold;
-    object-fit: fill;
-    overflow: hidden;
-}
 
 .cutLink:hover {
 
@@ -105,16 +79,28 @@ h2 {
 
 @media (max-width: 1024px) {
     .topMain {
-    grid-template-columns: 1fr;
-    
+        background-size: cover;
     }
+    
+    .buttonJar {
+        margin: 0;
+    }
+    .moreButton {
+        margin: .5em;
+    }
+    h3 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 699px) {
+
     .rightTopMain {
     grid-column: 1/-1;
     margin: 0;
-   
     }
 
-    h2 {
+   h2 {
     display: absolute;
     margin: .5em auto 0 auto;   
     text-align: center;
@@ -127,41 +113,22 @@ h2 {
     #firstAboutParagraph {
         margin-top: .5em;
     }
-    .buttonJar {
-        margin: 0;
-    }
-    .moreButton {
-        margin: .5em;
-    }
-
-    .bottomMain {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-   
-    .topImage {
-        justify-content: bottom;
-        min-width: 765px;
-        min-height: 511.34px;
-
-    }
-    .imgBox {
-       padding: 1em;
-    }
-    h3 {
-        font-size: 45px;
-    }
-}
-
-@media (max-width: 699px) {
   .aboutParagraph {
       margin-left: 0;
       display: block;
       padding-left: 1em;
   }  
+  .bottomMain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBox {
+   padding: 1em;
+   width: 100%;
 
 }
 
 
-
+}

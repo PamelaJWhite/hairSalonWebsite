@@ -1,5 +1,4 @@
 .contactForm { 
-    border: 1px solid salmon;
     width: 400px;
     display: flex; 
     flex-direction: column; 
@@ -28,12 +27,16 @@ textarea {
 ::placeholder {
     color: #ea00ad;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+
+    .contactForm {
+        margin-bottom: 30px;  
+      }
+}
+@media (max-width: 699px) {
     input, textarea {
         width: 375px;
     }
 
-    .contactForm {
-      margin-bottom: 15px;  
-    }
+   
 }
