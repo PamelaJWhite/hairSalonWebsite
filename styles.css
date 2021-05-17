@@ -1,5 +1,17 @@
 
-
+.logoPic {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+}
+.logo {
+    display: flex;
+    margin-bottom: 5px;
+}
+.logoName {
+    font-size: 45px;
+    color: #88a096;
+}
  
 main { 
     display: flex;
@@ -14,7 +26,8 @@ main {
 }
 .topMain {
     
-    background-image:url("./hairSalonPics/element5-digital-3bj1fSbxxe4-unsplash.jpg");
+    /* background-image:url("./hairSalonPics/element5-digital-3bj1fSbxxe4-unsplash.jpg"); */
+    background-image: url("./hairSalonPics/gaelle-marcel-yO9ZVNFbpao-unsplash.jpg");
     background-size: 100%;
 }
 
@@ -35,13 +48,13 @@ main {
 }
 
 h2 {
-    color: #7f14f1;
-    background-color: #98ECD6;
+    color: #547487;
+    background-color: #dbc0bb;
 }
 .aboutParagraph {
     font-size: 30px;
-    color: #98ECD6;
-    background-color: #7f14f1;
+    color: #dbc0bb;
+    background-color: #547487;
     display: inline-block;
     padding: 5px 10px 0 10px;
 }
@@ -74,8 +87,21 @@ h2 {
 
 .cutLink:hover {
 
-    color: #ea00ad;
+    color: #887880;
 }
+
+/*header {
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. } */
+    /*background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("./hairSalonPics/squarecactus.png");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("./hairSalonPics/squarecactus.png"); /* The least supported option. 
+img {
+   object-fit: cover;
+}*/
+
 
 @media (max-width: 1024px) {
     .topMain {
