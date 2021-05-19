@@ -50,9 +50,10 @@ main {
 h2 {
     color: #547487;
     background-color: #dbc0bb;
+    font-size: 35px;
 }
 .aboutParagraph {
-    font-size: 30px;
+    font-size: 25px;
     color: #dbc0bb;
     background-color: #547487;
     display: inline-block;
@@ -70,11 +71,16 @@ h2 {
     margin-top: 50px;
 }
 
+.moreLink:hover {
+font-weight: normal;
+}
+
 .bottomMain {
     display: flex; 
     justify-content: space-evenly;
     margin-top: 50px;
     height: 100%;
+    align-items: center;
 }
 
 .imgBox {
@@ -83,23 +89,16 @@ h2 {
     text-align: center;
     margin: 20px;
 }
-
-
-.cutLink:hover {
-
-    color: #887880;
+/*
+img {
+    object-fit: cover;
+    border: 1px solid hotpink;
 }
 
-/*header {
-    height: 600px;
-    width: 100vw;
-    background: black;
-    overflow: hidden;
-    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. } */
-    /*background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("./hairSalonPics/squarecactus.png");
-    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("./hairSalonPics/squarecactus.png"); /* The least supported option. 
-img {
-   object-fit: cover;
+.imgDiv {
+    border: 3px solid green;
+    width: 20em;
+    height: 35em;
 }*/
 
 

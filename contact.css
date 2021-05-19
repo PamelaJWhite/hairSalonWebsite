@@ -12,12 +12,12 @@ input, textarea {
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: #3fdbb1;
-    border: 1px solid #ea00ad;
+    background-color: #dbc0bb;
+    border: 1px solid#88a096;
 }
 
 input:hover, textarea:hover {
-    border: 3px solid #ea00ad;
+    border: 3px solid #88a096;
 }
 
 textarea {
@@ -25,7 +25,7 @@ textarea {
 }
 
 ::placeholder {
-    color: #ea00ad;
+    color: #88a096;
 }
 @media (max-width: 1024px) {
 

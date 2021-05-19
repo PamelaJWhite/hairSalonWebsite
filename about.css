@@ -5,9 +5,14 @@
     margin: 20px;
     text-align: center;
 }
-img {
+
+
+.top {
     width: 650px;
     margin: 15px 0;
+}
+.aboutImgWrapper {
+    max-width: 1024px;
 }
 p {
     margin-top: 0;
@@ -28,6 +33,7 @@ h3 {
     
     p {
         margin: auto 1em;
+        font-size: 20px;
     }
 }
     

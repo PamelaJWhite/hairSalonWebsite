@@ -9,13 +9,20 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <nav class="topNav">
-            <a href="./index.html" class="active">LOGO</a>
+            <div class="logo" href="./index.html" class="active">
+                <img class="logoPic" src="./hairSalonPics/cactus.png">
+               <div class="logoName">SPIKE </div> 
+            <img class="logoPic" src="./hairSalonPics/cactusFlipped.png">
+            </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
                 <div class="bars"></div>
@@ -39,33 +46,39 @@
     
         <section class="galleryImgContainer">
             <a class="galleryLink">
-                <img class="galleryImg" src="./hairSalonPics/chan-nyein-FzavNq-l3t0-unsplash.jpg">
+                <img class="galleryImg" src="./hairSalonPics/angledCut.jpg">
             </a>
             <a  class="galleryLink">
-                <img class="galleryImg" src="./hairSalonPics/leohoho-bYN8Oo7QCKw-unsplash.jpg">
+                <img class="galleryImg" src="./hairSalonPics/hairTossed.jpg">
             </a>
             <a class="galleryLink" >
-                <img class="galleryImg" src="./hairSalonPics/elizabeth-lies-0vWbRK0-Vac-unsplash.jpg">
+                <img class="galleryImg" src="./hairSalonPics/sideDesign.jpg">
             </a>
            
-            <a class="galleryLink">
-                <img class="galleryImg" src="./hairSalonPics/chan-nyein-FzavNq-l3t0-unsplash.jpg">
-            </a>
+           
             <a  class="galleryLink">
-                <img class="galleryImg" src="./hairSalonPics/leohoho-bYN8Oo7QCKw-unsplash.jpg">
-            </a>
-            <a class="galleryLink" >
-                <img class="galleryImg" src="./hairSalonPics/elizabeth-lies-0vWbRK0-Vac-unsplash.jpg">
+                <img class="galleryImg" src="./hairSalonPics/brownBob.jpg">
             </a>
             <a class="galleryLink">
-                <img class="galleryImg" src="./hairSalonPics/chan-nyein-FzavNq-l3t0-unsplash.jpg">
+                <img class="galleryImg" src="hairSalonPics/tightCurl.jpg">
+            </a>
+            
+            <a class="galleryLink" >
+                <img class="galleryImg" src="./hairSalonPics/purpleBackClose.png">
+            </a>
+           
+           
+            <a class="galleryLink" >
+                <img class="galleryImg" src="./hairSalonPics/manTree.jpg">
             </a>
             <a  class="galleryLink">
-                <img class="galleryImg" src="./hairSalonPics/leohoho-bYN8Oo7QCKw-unsplash.jpg">
+                <img class="galleryImg" src="./hairSalonPics/janko-ferlic-qzDF5PNEWKc-unsplash.jpg">
             </a>
+          
             <a class="galleryLink" >
-                <img class="galleryImg" src="./hairSalonPics/elizabeth-lies-0vWbRK0-Vac-unsplash.jpg">
+                <img class="galleryImg" src="./maleRedhead.jpg">
             </a>
+            
           
         </section>
     </main>
@@ -81,5 +94,15 @@
                 <li><a href="">Instagram</a></li>
             </ul>
         </nav>
-    </footer>
+    </footer> <script>
+        function myFunction() {
+            var x = document.getElementById("topNavLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
+</html>

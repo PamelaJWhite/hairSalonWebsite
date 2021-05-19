@@ -16,6 +16,11 @@
     /*border: 1px solid #ea00ad;*/
     width: 300px;
     height: 300px;
+    border: none;
+}
+img {
+    object-fit: cover;
+    
 }
 @media (max-width: 1024px) {
     .galleryImgContainer {

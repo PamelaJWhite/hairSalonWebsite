@@ -8,35 +8,30 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="./styles.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@700&display=swap" rel="stylesheet">
     <title>Hair Salon</title>
 </head>
-<script>
-    function myFunction() {
-      var x = document.getElementById("topNavLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-    </script>
+
+
 <body>
-   <header>
+    <header>
         <nav class="topNav">
             <div class="logo" href="./index.html" class="active">
                 <img class="logoPic" src="./hairSalonPics/cactus.png">
-               <div class="logoName">SPIKE </div> 
-            <img class="logoPic" src="./hairSalonPics/cactusFlipped.png">
+                <div class="logoName">SPIKE </div>
+                <img class="logoPic" src="./hairSalonPics/cactusFlipped.png">
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
                 <div class="bars"></div>
                 <div class="bars"></div>
-                <div class="bars"></div></a>
+                <div class="bars"></div>
+            </a>
             <div id="topNavLinks" class="topNavLinks">
                 <a class="topLinks" href="./index.html">home</a>
                 <a class="topLinks" href="./about.html">about</a>
@@ -44,17 +39,17 @@
                 <a class="topLinks" href="./blog.html">blog</a>
                 <a class="topLinks" href="./contact.html">contact</a>
             </div>
-           
 
-              </a>
+
+            </a>
         </nav>
     </header>
 
     <main class="main">
         <section class="topMain">
-          
+
             <article class="rightTopMain">
-                <h2>Some alluring tagline this big</h2>
+                <h2>We want you looking sharp</h2>
                 <p class="aboutParagraph" id="firstAboutParagraph">Haikus are funny</p>
                 <br>
                 <p class="aboutParagraph">But sometimes they don't make sense</p>
@@ -62,7 +57,10 @@
                 <p class="aboutParagraph">Refrigerator</p>
                 <br>
                 <div class="buttonJar">
-                <button class="moreButton">More</button> </div>
+                    <a class="moreLink" href="about.html">
+                    <button class="moreButton">More</button>
+                </a>
+                </div>
             </article>
 
 
@@ -70,24 +68,27 @@
         <section class="bottomMain">
             <div class="imgBox">
                 <a class="cutLink">
-                    <img src="./hairSalonPics/wesley-tingey-zar90MHyWYc-unsplash.jpg">
-                    <h3>CUT</h3>
+                    
+                        <img class="homePic" src="./hairSalonPics/shortSpikyResized.png">
+                        <h3>CUT</h3>
+                   
                 </a>
-                
+
             </div>
             <div class="imgBox">
                 <a class="cutLink">
-                    <img src="./hairSalonPics/jessie-dee-dabrowski-www-jessiedee-net-TETR8YLSqt4-unsplash.jpg">
-                    <h3>COLOR</h3>
-                </a>
                 
+                        <img class="homePic" src="./hairSalonPics/lavenderHair.jpg">
+                        <h3>COLOR</h3>
+                    
+                </a>
+
             </div>
             <div class="imgBox">
-                <a class="cutLink">
-                    <img id="tallImg" src="./hairSalonPics/adjustedTealPic.jpg">
+                <a class="cutLink"> 
+                    <img class="homePic" id="tallImg" src="hairSalonPics/handsInHairResized.png">
                     <h3>STYLE</h3>
                 </a>
-                
             </div>
         </section>
     </main>
@@ -103,4 +104,15 @@
             </ul>
         </nav>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topNavLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
+</html>

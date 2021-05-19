@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="blog.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="topNav">
-            <a href="./index.html" class="active">LOGO</a>
+            <div class="logo" href="./index.html" class="active">
+                <img class="logoPic" src="./hairSalonPics/cactus.png">
+               <div class="logoName">SPIKE </div> 
+            <img class="logoPic" src="./hairSalonPics/cactusFlipped.png">
+            </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
                 <div class="bars"></div>
@@ -36,7 +42,14 @@
     <main class="containOther">
         <h2>Blog</h2>
         <section class="blogsContainer">
-            
+            <div class="blogBox">
+                <img class="blogImg" src="./hairSalonPics/jordan-nix-3_KYuMVl1Q8-unsplash.jpg">
+                <article class="blogArticle">
+                    <h3>Another Blog Article Title</h3>
+                    <p>Teaser. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <button>Read More</button>
+                </article>
+            </div>
             <div class="blogBox">
                 <img class="blogImg" src="./hairSalonPics/giorgio-trovato-X465FlMcwjg-unsplash.jpg">
                 <article class="blogArticle">
@@ -47,21 +60,14 @@
             </div>
             <div class="blogBox">
                 
-                <img class="blogImg" src="./hairSalonPics/squarecactus.png">
+                <img class="blogImg" src="./hairSalonPics/greg-trowman-jsuWg7IXx1k-unsplash.jpg">
             <article class="blogArticle">
                 <h3>Article Title</h3>
                 <p>Teaser. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 <button>Read More</button>
             </article>
             </div>
-            <div class="blogBox">
-                <img class="blogImg" src="./hairSalonPics/jordan-nix-3_KYuMVl1Q8-unsplash.jpg">
-                <article class="blogArticle">
-                    <h3>Another Blog Article Title</h3>
-                    <p>Teaser. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <button>Read More</button>
-                </article>
-            </div>
+          
             
         </section>
     </main>
@@ -78,4 +84,15 @@
             </ul>
         </nav>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topNavLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
+</html>

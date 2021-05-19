@@ -9,50 +9,68 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="about.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav class="topNav">
-                <a href="./index.html" class="active">LOGO</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                    <div class="bars"></div>
-                    <div class="bars"></div>
-                    <div class="bars"></div></a>
-                <div id="topNavLinks" class="topNavLinks">
-                    <a class="topLinks" href="./index.html">home</a>
-                    <a class="topLinks" href="./about.html">about</a>
-                    <a class="topLinks" href="./gallery.html">gallery</a>
-                    <a class="topLinks" href="./blog.html">blog</a>
-                    <a class="topLinks" href="./contact.html">contact</a>
-                </div>
-               
-    
-                  </a>
-            </nav>
-        </header>
-        <main class="containOther">
-            <h2>About</h2>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="topNav">
+            <div class="logo" href="./index.html" class="active">
+                <img class="logoPic" src="./hairSalonPics/cactus.png">
+                <div class="logoName">SPIKE </div>
+                <img class="logoPic" src="./hairSalonPics/cactusFlipped.png">
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <div class="bars"></div>
+                <div class="bars"></div>
+                <div class="bars"></div>
+            </a>
+            <div id="topNavLinks" class="topNavLinks">
+                <a class="topLinks" href="./index.html">home</a>
+                <a class="topLinks" href="./about.html">about</a>
+                <a class="topLinks" href="./gallery.html">gallery</a>
+                <a class="topLinks" href="./blog.html">blog</a>
+                <a class="topLinks" href="./contact.html">contact</a>
+            </div>
+            </a>
+        </nav>
+    </header>
+    <main class="containOther">
+        <h2>About</h2>
+        <div class="aboutImgWrapper">
             <img src="./hairSalonPics/shari-sirotnak-oM5YoMhTf8E-unsplash.jpg">
-            <article class="containContent">
-                <h3>Article Heading 1</h3>
-                <p>Article paragraphs Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestiae neque maxime. Provident soluta ipsam minima voluptatem unde molestias tempore consectetur atque aliquid, quia deserunt maxime laboriosam consequuntur ab.</p>
-            </article>
-            <article class="containContent">
-                <h3>Article Heading 2</h3>
-                <p>Article paragraphs Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestiae neque maxime. Provident soluta ipsam minima voluptatem unde molestias tempore consectetur atque aliquid, quia deserunt maxime laboriosam consequuntur ab.</p>
-            </article>
-            <article class="containContent">
-                <h3>Article Heading 3</h3>
-                <p>Article paragraphs Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestiae neque maxime. Provident soluta ipsam minima voluptatem unde molestias tempore consectetur atque aliquid, quia deserunt maxime laboriosam consequuntur ab.</p>
-            </article>
-            <article class="containContent">
-                <h3>Article Heading 4</h3>
-                <p>Article paragraphs Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestiae neque maxime. Provident soluta ipsam minima voluptatem unde molestias tempore consectetur atque aliquid, quia deserunt maxime laboriosam consequuntur ab.</p>
-            </article>
-        </main>
-  
+        </div>
+        <article class="containContent">
+            <h3>Article Heading 1</h3>
+            <p>Article paragraphs Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestiae
+                neque maxime. Provident soluta ipsam minima voluptatem unde molestias tempore consectetur atque aliquid,
+                quia deserunt maxime laboriosam consequuntur ab.</p>
+        </article>
+        <article class="containContent">
+            <h3>Article Heading 2</h3>
+            <p>Article paragraphs Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestiae
+                neque maxime. Provident soluta ipsam minima voluptatem unde molestias tempore consectetur atque aliquid,
+                quia deserunt maxime laboriosam consequuntur ab.</p>
+        </article>
+        <article class="containContent">
+            <h3>Article Heading 3</h3>
+            <p>Article paragraphs Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestiae
+                neque maxime. Provident soluta ipsam minima voluptatem unde molestias tempore consectetur atque aliquid,
+                quia deserunt maxime laboriosam consequuntur ab.</p>
+        </article>
+        <article class="containContent">
+            <h3>Article Heading 4</h3>
+            <p>Article paragraphs Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestiae
+                neque maxime. Provident soluta ipsam minima voluptatem unde molestias tempore consectetur atque aliquid,
+                quia deserunt maxime laboriosam consequuntur ab.</p>
+        </article>
+    </main>
+
     <footer>
         <nav class="bottomNav">
             <ul id=leftList>
@@ -65,4 +83,15 @@
             </ul>
         </nav>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topNavLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
+</html>
