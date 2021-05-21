@@ -117,14 +117,33 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-  
+    justify-content: space-evenly; 
 }
 
 .bottomNav {
     display: flex;
     justify-content: flex-start;
     height: 120px;  
+}
+.socialMediaImg {
+    width: 40px;
+    background-color: #dbc0bb;
+    opacity: 50%;
+}
+
+#leftList {
+  
+    padding-right: 3px;
+}
+#rightList {
+   
+    padding-left: 3px;
+}
+.rightListItem {
+    padding-top: 6px;
+}
+.leftListItem{
+    padding-top: 6px;
 }
 
 @media (max-width: 1024px) {
@@ -194,8 +213,4 @@ ul {
         background-color: #dbc0bb;
         margin: 6px 0;
     }
-   
-   
-
 }
-

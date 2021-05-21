@@ -22,6 +22,7 @@ img {
     object-fit: cover;
     
 }
+
 @media (max-width: 1024px) {
     .galleryImgContainer {
         width:700px;

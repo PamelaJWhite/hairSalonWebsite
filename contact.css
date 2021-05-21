@@ -27,6 +27,15 @@ textarea {
 ::placeholder {
     color: #88a096;
 }
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #547487;
+    color:  #547487;
+}
+input, select, textarea {
+    color:  #547487;
+}
 @media (max-width: 1024px) {
 
     .contactForm {
