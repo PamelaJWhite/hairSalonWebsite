@@ -4,23 +4,20 @@
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
+ margin-bottom: 20px;
 }
 .galleryLink {
     width: 300px;
     height: 300px;
     margin: 15px 0;
-
 }
 .galleryImg {
-   /* box-shadow: 5px 5px #ea00ad; */
-    /*border: 1px solid #ea00ad;*/
     width: 300px;
     height: 300px;
     border: none;
 }
 img {
     object-fit: cover;
-    
 }
 
 @media (max-width: 1024px) {
@@ -28,6 +25,7 @@ img {
         width:700px;
         justify-content: space-evenly;
         max-width: fit-content;
+        margin-bottom: 30px;
     }
   .galleryLink {
       margin: 1em;
@@ -38,9 +36,7 @@ img {
     .galleryImgContainer {
         width: 650px;
     }
-  .galleryLink {
+    .galleryLink {
       padding: 10px;
   } 
-
- 
 }

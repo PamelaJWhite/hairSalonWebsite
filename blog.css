@@ -1,5 +1,4 @@
 .blogBox {
-    /* border: 1px solid green; */
     display: flex;
     flex-direction: row;
     margin: 30px 0 100px 0;
@@ -8,7 +7,6 @@
     width: 300px;
     height: 300px;
 }
-
 .blogArticle {
     width: 600px;
     display: flex;
@@ -49,6 +47,7 @@ padding-right: 30px;
     }
     .blogArticle {
         max-width: 300px;
+
         text-align: center;
     
     }
@@ -56,9 +55,9 @@ padding-right: 30px;
        width: 100%;
        text-align: center;
    }
-
    p {
        text-align: left;
        font-size: 20px;
+       padding: 0 20px;
    }
 }
