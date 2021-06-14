@@ -1,0 +1,44 @@
+
+
+.containContent {
+    width: 560px;
+    margin: 20px;
+    text-align: center;
+}
+.top {
+    width: 650px;
+    margin: 15px 0;
+}
+.aboutImgWrapper {
+    max-width: 1024px;
+}
+p {
+    margin-top: 0;
+}
+h3 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+@media (max-width: 1024px) {
+    .containContent {
+        width: 100%;
+        max-width: 560px;
+        margin: 2em;
+    }
+    p {
+        margin: auto 1em;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 699px) {
+    h3 {
+        display: block;
+        padding: auto;
+}
+    body {
+        margin: 0;
+    }
+}

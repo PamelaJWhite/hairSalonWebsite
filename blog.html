@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@700&display=swap" rel="stylesheet">
+    <title>SPIKE Blog</title>
+</head>
+
+<body>
+    <header>
+        <nav class="topNav">
+            <div class="logo" href="./index.html" class="active">
+                <img class="logoPic" src="./hairSalonPics/cactus.png">
+               <div class="logoName">SPIKE </div> 
+            <img class="logoPic" src="./hairSalonPics/cactusFlipped.png">
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <div class="bars"></div>
+                <div class="bars"></div>
+                <div class="bars"></div></a>
+            <div id="topNavLinks" class="topNavLinks">
+                <a class="topLinks" href="./index.html">home</a>
+                <a class="topLinks" href="./about.html">about</a>
+                <a class="topLinks" href="./gallery.html">gallery</a>
+                <a class="topLinks" href="./blog.html">blog</a>
+                <a class="topLinks" href="./contact.html">contact</a>
+            </div>
+           
+
+              </a>
+        </nav>
+    </header>
+    <main class="containOther">
+        <h2>Blog</h2>
+        <section class="blogsContainer">
+            <div class="blogBox">
+                <img class="blogImg" src="./hairSalonPics/jordan-nix-3_KYuMVl1Q8-unsplash.jpg">
+                <article class="blogArticle">
+                    <h3>Another Blog Article Title</h3>
+                    <p>Teaser. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <button>Read More</button>
+                </article>
+            </div>
+            <div class="blogBox">
+                <img class="blogImg" src="./hairSalonPics/giorgio-trovato-X465FlMcwjg-unsplash.jpg">
+                <article class="blogArticle">
+                    <h3>Blog Article Title</h3>
+                    <p>Teaser. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <button>Read More</button>
+                </article>
+            </div>
+            <div class="blogBox">
+                
+                <img class="blogImg" src="./hairSalonPics/greg-trowman-jsuWg7IXx1k-unsplash.jpg">
+            <article class="blogArticle">
+                <h3>Article Title</h3>
+                <p>Teaser. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <button>Read More</button>
+            </article>
+            </div>
+          
+            
+        </section>
+    </main>
+    </main>
+    <footer>
+        <nav class="bottomNav">
+            <ul id=leftList>
+                <li class="leftListItem"><a href="twitter.com">
+                    <img class="socialMediaImg" src="hairSalonPics/twitterTransparent.svg">
+                </a></li>
+                <li class="leftListItem"><a href="pinterest.com">
+                    <img class="socialMediaImg" src="hairSalonPics/pinterestTransparent.svg">
+                </a></li>
+            </ul>
+            <ul id=rightList>
+                <li class="rightListItem"><a href="facebook.com">
+                    <img class="socialMediaImg" src="hairSalonPics/FBtransparent3.svg">
+                </a></li>
+                <li class="rightListItem"><a href="instagram.com">
+                    <img class="socialMediaImg" src="hairSalonPics/instaTransparent2.svg">
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topNavLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
